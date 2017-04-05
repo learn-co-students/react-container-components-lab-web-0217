@@ -2,9 +2,8 @@ const React = require('react');
 const { shallow, mount } = require('enzyme');
 
 const Noop = (props) => { return <p>Noop</p> };
-const SearchableMovieReviewsContainer = require(
-  '../components/SearchableMovieReviewsContainer'
-);
+import SearchableMovieReviewsContainer from '../components/SearchableMovieReviewsContainer'
+
 
 const testReviews = require('./test-reviews');
 
