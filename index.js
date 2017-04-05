@@ -1,12 +1,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-
-const LatestMovieReviewsContainer = require(
-  './components/LatestMovieReviewsContainer'
-);
-const SearchableMovieReviewsContainer = require(
-  './components/SearchableMovieReviewsContainer'
-);
+import LatestMovieReviewsContainer from './components/LatestMovieReviewsContainer'
+import SearchableMovieReviewsContainer from './components/SearchableMovieReviewsContainer'
 
 ReactDOM.render(
   <div className="app">
